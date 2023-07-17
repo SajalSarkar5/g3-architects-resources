@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;600;700&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 
+/* body section */
 body {
     margin: 0px;
     padding: 0px;
@@ -9,12 +10,13 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* paragraph section */
 .color-lightgray {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
 }
-
+/* button section */
 .btn-primary {
     padding: 21px 25px;
     border-radius: 8px;
@@ -25,6 +27,7 @@ body {
     border: 0;
 }
 
+/* nav section start */
 .nav-area {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 40px 228px;
@@ -60,7 +63,9 @@ nav {
     font-size: 1.2rem;
     font-weight: 500;
 }
+/* nav section end */
 
+/* banner section start */
 .banner-title {
     max-width: 800px;
     margin: 0 auto;
@@ -82,12 +87,14 @@ nav {
     width: 100%;
     margin-top: 40px;
 }
+/* banner section end */
 
+/* main section start */
 main {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+/* features section start */
 .features-container {
     padding: 50px;
 }
@@ -130,7 +137,9 @@ main {
     font-weight: 700;
     margin: 0px;
 }
+/* features section end */
 
+/* features love enjoy section start */
 .features {
     display: flex;
     margin-top: 130px;
@@ -189,7 +198,9 @@ main {
     font-weight: 500;
     margin: 0px;
 }
+/* features love enjoy section end */
 
+/* facts section start */
 .facts-area {
     margin-top: 130px;
 }
@@ -206,6 +217,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .box {
     border-radius: 8px;
     border: 1px solid #FF900E;
@@ -213,33 +225,71 @@ main {
     padding: 80px 70px;
     margin-top: 100px;
 }
+
 .box h3 {
     color: #424242;
     font-size: 2.8rem;
     font-weight: 600;
 }
+
 .box p {
     color: #727272;
     font-size: 1.2rem;
     font-weight: 600;
 }
+/* facts section end */
 
+/* sponspors section start */
+.sponspors-area {
+    text-align: center;
+    margin-top: 170px;
+}
 
+.sponspors-title h3 {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0px;
+}
 
+.sponspors-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+/* sponspors section end */
 
+/* footer section start */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
 
+.footer {
+    margin-top: 130px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 39px 410px;
+}
 
+.footer small {
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* footer section end */
 
-
-
-
-
-
+/* Small devices */
 @media screen and (max-width: 576px) {
 
     nav,
     .features-area,
-    .features, .some-facts {
+    .features,
+    .some-facts,
+    .sponspors-img {
         display: block;
     }
 
@@ -267,7 +317,7 @@ main {
     }
 
     .features {
-        padding: 20px;
+        padding: 10px;
     }
 
     .ten-year-badge {
@@ -279,20 +329,31 @@ main {
         width: 100%;
         margin-left: 0px;
     }
+
     .facts-area {
-        padding: 20px;
+        padding: 10px;
+    }
+
+    .logo-img {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding: 25px 40px;
+    }
+    footer {
+        margin: 10px;
     }
 
 }
-
-
-
-
+/* Medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
     nav,
     .features-area,
-    .features, .some-facts {
+    .features,
+    .some-facts,
+    .sponspors-img {
         display: block;
     }
 
@@ -316,7 +377,7 @@ main {
     }
 
     .features {
-        padding: 20px;
+        padding: 10px;
     }
 
     .ten-year-badge {
@@ -328,17 +389,31 @@ main {
         width: 100%;
         margin-left: 0px;
     }
+
     .facts-area {
-        padding: 20px;
+        padding: 10px;
+    }
+
+    .logo-img {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding: 25px 40px;
+    }
+    footer {
+        margin: 10px;
     }
 
 }
-
+/* Extra large devices */
 @media screen and (min-width: 960px) and (max-width: 1200px) {
 
     nav,
     .features-area,
-    .features, .some-facts {
+    .features,
+    .some-facts,
+    .sponspors-img {
         display: block;
     }
 
@@ -362,7 +437,7 @@ main {
     }
 
     .features {
-        padding: 30px;
+        padding: 20px;
     }
 
     .ten-year-badge {
@@ -374,8 +449,18 @@ main {
         width: 100%;
         margin-left: 0px;
     }
+
     .facts-area {
-        padding: 30px;
+        padding: 20px;
     }
 
+    .logo-img {
+        margin-bottom: 50px;
+    }
+    .footer {
+        padding: 30px 50px;
+    }
+    footer {
+        margin: 20px;
+    }
 }
