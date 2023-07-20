@@ -323,6 +323,7 @@ footer {
     .ten-year-badge {
         bottom: 0px;
         margin: 0 auto;
+        width: 63%;
     }
 
     .architect-img img {
